@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="#313D47" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/White"
+            android:layout_marginTop="32dp"
+            android:text="What We do"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+              android:textColor="@color/White"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:text="Smile Foundation’s educational initiatives include Pre-school [3-6 yrs], Non Formal Education [6-14 yrs non-school going], Remedial Education [6-14 yrs school going]
+ and Bridge Course [14-18 yrs drop-outs]. It works for education for needy children who are under difficult circumstances, such as child labour, children of poorest of the parents,
+ children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered. " />
+         <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+              android:textColor="@color/White"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:text="Smile Foundation’s educational initiatives include Pre-school [3-6 yrs], Non Formal Education [6-14 yrs non-school going], Remedial Education [6-14 yrs school going]
+ and Bridge Course [14-18 yrs drop-outs]. It works for education for needy children who are under difficult circumstances, such as child labour, children of poorest of the parents,
+ children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered. " />
+    </RelativeLayout>
+
+</LinearLayout>

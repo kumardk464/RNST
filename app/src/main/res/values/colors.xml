@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+
+
+    <color name="theme_color">#33BBFF</color>
+    <color name="bg_color">#55978f</color>
+    <color name="whitesh">#fafafa</color>
+    <color name="app_bg_color">#2a2a2a</color>
+    <color name="lightgrayyy">#dedede</color>
+    <color name="bragg_content_color">#f8f8f8</color>
+    <color name="bragg_date_color">#7e7e7e</color>
+    <color name="bragg_challenge_puke_color">#878787</color>
+    <color name="White">#ffffff</color>
+    <color name="bragg_card_boarder_color">#1a1a1a</color>
+    <color name="black">#000000</color>
+    <color name="content_background">#f8f8f8</color>
+    <color name="primary_color">#ff3f51b5</color>
+    <color name="material_blue_500">#5677fc</color>
+    <color name="material_blue_600">#4e6cef</color>
+    <color name="list_item_color">#2a2a2a</color>
+    <color name="selected_image_bg_color">#c6c6c6</color>
+    <!-- 5190b9 -->
+    <color name="app_bg_color_shade">#30ffffff</color>
+    <color name="tab_indicator_color">#3db39f</color>
+    <color name="rippelColor">#FFFFFF</color>
+    <color name="tab_bottom_line_color">#c9c9c9</color>
+    <color name="friends_text_color">#fefefe</color>
+    <color name="accept_btn_color">#f5942d</color>
+    <color name="decline_btn_color">#e24b40</color>
+    <color name="challenges_image_bg_color">#dde8ea</color>
+    <color name="post_content_color">#afafaf</color>
+    <color name="post_menu_text_color">#2a2a2a</color>
+
+    <!-- Floating action button -->
+
+    <color name="primary">#3f51b5</color>
+    <color name="primary_pressed">#303f9f</color>
+    <color name="ripple">#ff80ab</color>
+    <color name="accent">#ff4081</color>
+    <color name="accent_pressed">#f50057</color>
+
+    <!-- Floating action button -->
+
+    <color name="brag_bg_color">#242324</color>
+    <color name="brag_top_images_layout_bg_color">#2a2a2a</color>
+    <color name="profile_link_color">#3f3f3f</color>
+    <color name="brag_name_color">#f2f88c</color>
+    <color name="brag_date_color">#ececec</color>
+    <color name="brag_content_color">#d5d5d5</color>
+    <color name="brag_challenge_text_color">#ffffff</color>
+    <color name="brag_challenge_text_layout_bg_color">#202020</color>
+    <color name="brag_bottom_layout_bg_color">#000000</color>
+    <color name="brag_reply_text_color">#fcffff</color>
+    <color name="leaderboard_bg_color">#2a2a2a</color>
+    <color name="leaderboard_list_bg_color">#2e470e</color>
+    <color name="filter_bg_color">#555555</color>
+    <color name="profile_about_bg_color">#424242</color>
+    <color name="profile_timeline_color">#a1a5a6</color>
+    <color name="app_theme_color">#6ba626</color>
+    <color name="participants_selected_tab_color">#3a3a3a</color>
+    <color name="participants_unselected_tab_color">#424242</color>
+    <color name="createPoll_color">#AEAEAE</color>
+
+
+    <!-- Media Picker -->
+    <color name="headerbar_color"> #81D4FA</color>
+    <color name="tabs_color"> #81D4FA </color>
+    <color name="tabs_title_color"> #FFFFFF </color>
+    <color name="headerbar_title_color"> #FFFFFF </color>
+    <color name="headerbar_selected_tab_color"> #34b4e3 </color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="setting_bg">#5C595A</color>
+
+
+
+
+
+
+</resources>

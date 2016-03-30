@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brag_bg_color"
+        android:orientation="vertical"
+        app:cardElevation="@dimen/dp_10"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="@dimen/dp_0"
+        card_view:cardCornerRadius="@dimen/dp_0"
+        card_view:cardUseCompatPadding="true" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null" >
+
+              <!--  <LinearLayout
+                    android:id="@+id/profile_details_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_90"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/tab_selected_color"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/dp_0"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:id="@+id/profile_lay"
+                        android:background="@color/brag_bg_color" >
+
+                        <com.ascendia.bragit.customviews.RippleView
+                            android:id="@+id/profile_pic_layout"
+                            android:layout_width="@dimen/dp_80"
+                            android:layout_height="@dimen/dp_80"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center_horizontal" >
+
+                            <com.ascendia.bragit.customviews.BrgITProfilePic
+                                android:id="@+id/menu_profile"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="center_horizontal"
+                                android:clickable="true"
+                                app:border="true"
+                                app:border_color="@android:color/transparent"
+                                app:border_width="@dimen/dp_0"
+                                app:selector="false"
+                                app:selector_color="#4403a9f4"
+                                app:selector_stroke_color="@android:color/transparent"
+                                app:selector_stroke_width="@dimen/dp_0"
+                                app:shadow="false" />
+
+                            &lt;!&ndash;
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:clickable="true"
+                                app:border="true"
+                                app:border_color="@android:color/transparent"
+                                app:border_width="0dp"
+                                app:selector="false"
+                                app:selector_color="#4403a9f4"
+                                app:selector_stroke_color="#aa5677fc"
+                                app:selector_stroke_width="4dp"
+                                app:shadow="true"
+                            &ndash;&gt;
+
+                        </com.ascendia.bragit.customviews.RippleView>
+-->
+                       <!-- <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/dp_5"
+                            android:layout_toRightOf="@+id/profile_pic_layout"
+                            android:orientation="vertical" >
+
+                            <com.ascendia.bragit.customviews.MyTextviewBold
+                                android:id="@+id/profileName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/dp_15"
+                                android:textStyle="bold" />
+
+                            <com.ascendia.bragit.customviews.MyTextviewBold
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Profile"
+                                android:textColor="@color/brag_content_color"
+                                android:textSize="@dimen/sp_14"
+                                android:textStyle="normal" />
+                        </LinearLayout>-->
+                    </RelativeLayout>
+
+                   <!-- <RelativeLayout
+                        android:id="@+id/leaderboard_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+                        android:background="@color/secondary_color"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/leaderboard_icon"
+                            android:layout_width="@dimen/dp_50"
+                            android:layout_height="@dimen/dp_50"
+                            android:layout_centerInParent="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/leaderboard" />
+
+                        <com.ascendia.bragit.customviews.MyTextviewBold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/leaderboard_icon"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="-8dp"
+                            android:text="Leaderboard"
+                            android:textColor="@color/White"
+                            android:textSize="@dimen/sp_14"
+                            android:textStyle="bold" />
+
+                        <com.ascendia.bragit.customviews.MyTextviewBold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/leaderboard_icon"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="-8dp"
+                            android:text="2000 Points"
+                            android:textColor="@color/White"
+                            android:textSize="@dimen/sp_14"
+                            android:textStyle="bold" />
+                    </RelativeLayout>-->
+                <!--</LinearLayout>-->
+            </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_card"
+        android:layout_marginTop="-32dp"
+        android:orientation="vertical"
+        app:cardBackgroundColor="@color/White"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:contentPadding="0dp"
+        card_view:cardUseCompatPadding="true" >
+
+        <ListView
+            android:id="@+id/menu_item_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:divider="@color/lightgrayyy"
+            android:dividerHeight="1px" />
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

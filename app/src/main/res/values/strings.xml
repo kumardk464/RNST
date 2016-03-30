@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">RNST</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="primary_Address">      Village- Dumari,Post:- Kanar Harihar pur
+      P.S:-Khairah, District:-chapra(Saran)
+      State:- Bihar:-841414</string>
+    <string name="secondry_Address">      Vip lane, Bhagwan Bazar,
+      Chapra saran
+      Near chapra Junction
+      Bihar:- 8412024</string>
+    <string name="app_back_alert">Are you sure u want to exit</string>
+
+    <string name="latest_news">
+        New-age firms disrupting hiring processes as well The Economic TimesOctober 12, 2015
+        CSR spend to rise; greater sensitization needed: Smile Foundation Business StandardOctober
+        Ericsson partners with Smile Foundation and NASSCOM Foundation to drive education and health initiatives in India Telecompaper.comMarch 30, 2015
+        Is social work worth it? The Times of IndiaMarch 08, 2015
+        How Indian NGOs are marrying Philanthropy with Social Innovations? Business InsiderMarch 02, 2015
+        Why NGOs are ending up on the wrong side of the law Business StandardJune 29, 2015
+        Economic and Social Council United NationsJune 01, 2015
+
+    </string>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>RNST Moments</item>
+        <item>UpComing Events </item>
+        <item>Latest News</item>
+        <item>What we do</item>
+        <item>About Trust</item>
+        <item>Contact</item>
+    </string-array>
+
+
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/rnst_home</item>
+        <item>@drawable/rnst_movement</item>
+        <item>@drawable/rnst_latest_news</item>
+        <item>@drawable/rnst_what_we_do</item>
+        <item>@drawable/rnst_about_us</item>
+        <item>@drawable/rnst_contact</item>
+        <item>@drawable/rnst_upcoming_event</item>
+    </array>
+
+    <!-- Fragment home list Item -->
+
+    <string-array name="titles">
+        <item>About Us</item>
+        <item>How to use</item>
+        <item>Help</item>
+        <item>Go Back to First Page</item>
+        <item>Go to comicpage</item>
+        <item>Go to story Page</item>
+        <item>Go to Akbar page</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/rnst_home</item>
+        <item>@drawable/rnst_movement</item>
+        <item>@drawable/rnst_latest_news</item>
+        <item>@drawable/rnst_what_we_do</item>
+        <item>@drawable/rnst_about_us</item>
+        <item>@drawable/rnst_contact</item>
+    </array>
+
+</resources>

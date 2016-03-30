@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#313D47"
+    android:orientation="vertical"
+  >
+ 
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.63"
+        android:gravity="center"
+         android:padding="20dp"
+        android:orientation="vertical" >
+
+  
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rnslog3"
+        android:paddingTop="10dp"/>
+   </LinearLayout>
+    
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.90"
+     android:padding="20dp"
+    android:orientation="vertical" >
+     <TextView 
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Introduction" 
+    android:textSize="18dp"
+    
+        android:textColor="@color/White"   
+        />
+    
+ <TextView
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+    android:paddingTop="8dp" 
+    android:textSize="14sp"
+     android:text="Lorem Ipsum is simply dummy text of the printing and type setting industry./n Lorium Isum has been the Industries standard dummy text ever since the 1500s, when an unknown printer."
+     android:textColor="@color/whitesh" />
+    
+    </LinearLayout>
+     
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.90"
+     android:padding="20dp"
+    android:orientation="vertical" >
+    
+     <TextView
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="How It works" 
+    android:textSize="18sp"
+        android:textColor="@color/White"   
+        />
+    <TextView
+            android:textColor="@color/White" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textSize="14sp"
+        android:text="Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorium Isum has been the Industries standard dummy text ever since the 1500s, when an unknown printer."/>
+   
+    
+    </LinearLayout>
+     
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+     android:padding="20dp">
+    
+    </LinearLayout>
+
+    <!-- <com.ascendia.bragit.superrecyclerview.SuperRecyclerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/notifList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_empty="@layout/emptyview"
+        app:layout_moreProgress="@layout/view_more_progress"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scrollY="0dp"
+        android:scrollbars="none"
+        app:mainLayoutId="@layout/layout_recyclerview_verticalscroll"
+        app:recyclerClipToPadding="false"
+        app:recyclerPadding="0dp"
+        app:scrollbarStyle="insideInset" /> -->
+
+</LinearLayout>
